@@ -10,7 +10,7 @@ import { clusterApiUrl } from '@solana/web3.js';
 import './App.css';
 
 const API_BASE = //import.meta.env.VITE_API_URL //|| 
-"http://localhost:3000";//'https://cards-of-loop-honeycome-server.onrender.com';
+"https://love2d-honeycomb-server.onrender.com";//"http://localhost:3000";//'https://cards-of-loop-honeycome-server.onrender.com';
 
 function WalletContent() {
   const { publicKey, connected, signMessage } = useWallet();
@@ -218,5 +218,6 @@ function App() {
     </ConnectionProvider>
   );
 }
+
 
 export default App;
